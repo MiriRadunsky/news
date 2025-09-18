@@ -1,8 +1,8 @@
-const WorldPage = () => (
-  <div className="main-content">
-    <h2>World News</h2>
-   
-  </div>
-);
+import MainContent from "./MainContent.jsx";
+
+const WorldPage = ({ articles }) => {
+  const filtered = articles.filter(a => a.category === "World");
+  return <MainContent articles={filtered} />;
+};
 
 export default WorldPage;

@@ -23,12 +23,12 @@ function App() {
         <SideBar />
         <Routes>
           <Route path="/" element={<MainContent articles={sampleArticles} />} />
-          <Route path="/world" element={<WorldPage />} />
-          <Route path="/politics" element={<PoliticsPage />} />
-          <Route path="/business" element={<BusinessPage />} />
-          <Route path="/tech" element={<TechPage />} />
-          <Route path="/sports" element={<SportsPage />} />
-          <Route path="/culture" element={<CulturePage />} />
+          <Route path="/world" element={<WorldPage articles={sampleArticles} />} />
+          <Route path="/politics" element={<PoliticsPage articles={sampleArticles} />} />
+          <Route path="/business" element={<BusinessPage articles={sampleArticles} />} />
+          <Route path="/tech" element={<TechPage articles={sampleArticles} />} />
+          <Route path="/sports" element={<SportsPage articles={sampleArticles} />} />
+          <Route path="/culture" element={<CulturePage articles={sampleArticles} />} />
         </Routes>
       </div>
     </BrowserRouter>

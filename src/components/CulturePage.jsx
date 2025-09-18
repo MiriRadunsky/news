@@ -1,8 +1,8 @@
-const CulturePage = () => (
-  <div className="main-content">
-    <h2>Culture</h2>
-   
-  </div>
-);
+import MainContent from "./MainContent.jsx";
+
+const CulturePage = ({ articles }) => {
+  const filtered = articles.filter(a => a.category === "Culture");
+  return <MainContent articles={filtered} />;
+};
 
 export default CulturePage;

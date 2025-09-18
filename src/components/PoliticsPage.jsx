@@ -1,8 +1,8 @@
-const PoliticsPage = () => (
-  <div className="main-content">
-    <h2>Politics</h2>
-  
-  </div>
-);
+import MainContent from "./MainContent.jsx";
+
+const PoliticsPage = ({ articles }) => {
+  const filtered = articles.filter(a => a.category === "Politics");
+  return <MainContent articles={filtered} />;
+};
 
 export default PoliticsPage;

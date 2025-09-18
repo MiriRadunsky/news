@@ -1,8 +1,8 @@
-const SportsPage = () => (
-  <div className="main-content">
-    <h2>Sports</h2>
-    
-  </div>
-);
+import MainContent from "./MainContent.jsx";
+
+const SportsPage = ({ articles }) => {
+  const filtered = articles.filter(a => a.category === "Sports");
+  return <MainContent articles={filtered} />;
+};
 
 export default SportsPage;
