@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import "../css/SideBar.css";
+import "../css/sideBar.css";
 
 const nav = [
   { name: "Latest News", link: "/" },

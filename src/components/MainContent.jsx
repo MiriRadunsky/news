@@ -1,4 +1,4 @@
-import "../css/MainContent.css";
+import "../css/mainContent.css";
 const MainContent = ({ articles = [] }) => {
   return (
     <div className="main-content">

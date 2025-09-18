@@ -3,10 +3,10 @@ import './App.css';
 import SideBar from './components/SideBar.jsx';
 
 import MainContent from './components/MainContent.jsx';
-import Header from './components/Header.jsx';
+import Header from './components/header.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WorldPage from './components/WorldPage.jsx';
-import PoliticsPage from './components/PoliticsPage.jsx';
+import PoliticsPage from './components/politicsPage.jsx';
 import BusinessPage from './components/BusinessPage.jsx';
 import TechPage from './components/TechPage.jsx';
 import SportsPage from './components/SportsPage.jsx';

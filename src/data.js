@@ -29,6 +29,16 @@ const sampleArticles = [
     category: "Business",
     time: "1h ago",
   },
+    {
+    id: 4,
+    title: "Local Team Wins Championship",
+    summary:
+      "In an exciting final match, the underdogs clinched the title in a nail-biting finish.",
+    image:
+        "https://picsum.photos/seed/news4/600/400",
+    category: "Sports",
+    time: "2h ago",
+    },
 ];
  
 export default sampleArticles;
